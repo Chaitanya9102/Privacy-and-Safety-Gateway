@@ -118,61 +118,21 @@ data/audit.jsonl       Local audit log, created when the app runs
 
 Here are a few views of the app while it checks sample prompts, applies policies, records decisions, and blocks a suspicious instruction. The screenshots use example data.
 
-<details>
-<summary>Dashboard overview</summary>
-
 ![Privacy Gateway dashboard](screenshots/01-dashboard-overview.png)
-
-</details>
-
-<details>
-<summary>Policy and history overview</summary>
 
 ![Policy profiles and audit history](screenshots/02-policy-and-history-overview.png)
 
-</details>
-
-<details>
-<summary>Sensitive data detection and protected preview</summary>
-
 ![Email, known name, and confidential terms are detected and protected](screenshots/03-sensitive-data-detection.png)
-
-</details>
-
-<details>
-<summary>Payment card tokenization and local demo</summary>
 
 ![Test payment card replaced by a token before the local demo receives it](screenshots/04-payment-card-tokenization.png)
 
-</details>
-
-<details>
-<summary>Policy settings and audit history</summary>
-
 ![Configurable protection actions and recent audit records](screenshots/05-policy-and-audit-history.png)
-
-</details>
-
-<details>
-<summary>Academic profile protection</summary>
 
 ![Academic profile protects sample student information](screenshots/06-academic-profile-protection.png)
 
-</details>
-
-<details>
-<summary>Prompt injection detection and blocking</summary>
-
 ![Suspicious prompt is detected and blocked pending review](screenshots/07-prompt-injection-blocking.png)
 
-</details>
-
-<details>
-<summary>Sample detection scorecard</summary>
-
 ![Precision, recall, and F1 score for the built-in sample set](screenshots/08-detection-scorecard.png)
-
-</details>
 
 ## Limitations
 
