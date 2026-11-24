@@ -1,0 +1,38 @@
+{
+  "active_profile": "General",
+  "profiles": {
+    "General": {
+      "sensitive_terms": ["Project Falcon", "internal roadmap", "do not share"],
+      "known_names": ["Alex Morgan"],
+      "actions": {
+        "EMAIL": "MASK", "PHONE": "MASK", "CREDENTIAL": "REDACT",
+        "CARD": "TOKENIZE", "NAME": "MASK", "CONFIDENTIAL": "REDACT",
+        "PROMPT_INJECTION": "REDACT"
+      },
+      "block_prompt_injection": true,
+      "store_protected_prompts": false
+    },
+    "Academic": {
+      "sensitive_terms": ["exam answer key", "unpublished grades", "student record"],
+      "known_names": ["Alex Morgan"],
+      "actions": {
+        "EMAIL": "MASK", "PHONE": "MASK", "CREDENTIAL": "REDACT",
+        "CARD": "TOKENIZE", "NAME": "MASK", "CONFIDENTIAL": "REDACT",
+        "PROMPT_INJECTION": "REDACT"
+      },
+      "block_prompt_injection": true,
+      "store_protected_prompts": false
+    },
+    "Business": {
+      "sensitive_terms": ["Project Falcon", "internal roadmap", "do not share"],
+      "known_names": ["Alex Morgan"],
+      "actions": {
+        "EMAIL": "MASK", "PHONE": "MASK", "CREDENTIAL": "REDACT",
+        "CARD": "TOKENIZE", "NAME": "MASK", "CONFIDENTIAL": "REDACT",
+        "PROMPT_INJECTION": "REDACT"
+      },
+      "block_prompt_injection": true,
+      "store_protected_prompts": false
+    }
+  }
+}
